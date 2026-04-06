@@ -1,1 +1,68 @@
-/* Add styles here */
+:root {
+    --pearly-white: #FDFEFE;
+    --pearly-gray: #EAECEE;
+    --light-blue: #A9CCE3;
+    --dark-blue: #2980B9;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--pearly-white);
+    color: var(--dark-blue);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--pearly-gray);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.event-details {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.event-details h2 {
+    margin-top: 0;
+}
+
+#register-btn {
+    background-color: var(--light-blue);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+#register-btn:hover {
+    background-color: var(--dark-blue);
+}
+
+footer {
+    background-color: var(--pearly-gray);
+    padding: 10px;
+    text-align: center;
+}
