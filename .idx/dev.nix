@@ -7,6 +7,7 @@
   packages = [
     pkgs.nodejs_22
     pkgs.python3
+    pkgs.azure-static-sites-client
   ];
   # Sets environment variables in the workspace
   env = {};
